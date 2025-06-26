@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<img class="img-article-left thumb" alt="" src="{{obj.img.url}}" width=170 high="170"></a>
+<p> Result: {{obj.result}}</p>
+<hr>
+<a href="{% url 'download_pdf' %}">Download result to PDF</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+ 
+{% block content %}
+<h1>{{title}}</h1>
+<p>The FER-2013 dataset is a widely recognized benchmark in affective computing, consisting of over 35,000 facial expressions representing real-world diversity. While our model provides insightful analysis, it's important to note that emotion recognition from static images remains a challenging field; factors like lighting, head angle, and individual expressiveness can influence results. This tool serves as a demonstration of AI's potential in understanding human emotions and can be used for educational exploration, user experience research, or as a foundation for further development. We continuously strive to improve accuracy and welcome feedback on the system's performance.</p>
+<h3>Key elements addressed:</h3>
+  <ul>
+    <li><strong>Functionality:</strong> Upload photo, emotion classification (7 categories)</li>
+    <li><strong>Technology:</strong> Trained on FER-2013 with 67% benchmark accuracy</li>
+    <li><strong>Context:</strong> FER-2013 as data source and industry standard</li>
+    <li><strong>Transparency:</strong> Sets realistic expectations about limitations</li>
+    <li><strong>Use Case:</strong> Educational, UX research and development applications</li>
+    <li><strong>Call to Action:</strong> Encourages user feedback for improvements</li>
+  </ul>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'auth_reg.html' %}
+
+<h1>{{title}}</h1>
+
+{% block func %}
+  <div class="auth-form">
+    <form method="post">
+        {% include 'users/include/form_content.html' %}
+    </form>
+  </div>
+<p class="register-link"><a href="{% url 'users:register' %}">Sign in</a></p>
+{% endblock %}
